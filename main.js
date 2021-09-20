@@ -4,7 +4,7 @@ function setup() {
     canvas.center();
     video = createCapture(VIDEO);
     video.hide();
-    classifier = ml5.imageClassifier(MobileNet ,modelLoaded);
+    classifier = ml5.imageClassifier('MobileNet' ,modelLoaded);
   }
   
   function modelLoaded() {
